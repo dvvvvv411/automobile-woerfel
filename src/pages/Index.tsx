@@ -8,8 +8,8 @@ const Index = () => {
       {/* Professional Header */}
       <header className="professional-header text-primary-foreground">
         <div className="container mx-auto px-4 py-4 md:py-8">
-        <h1 className="text-2xl md:text-3xl font-bold mb-2">Eweret Automobile GmbH</h1>
-        <p className="text-primary-foreground/80">Basler Str. 3, 61352 Bad Homburg v. d. Höhe</p>
+        <h1 className="text-2xl md:text-3xl font-bold mb-2">Automobile Wörfel GmbH</h1>
+        <p className="text-primary-foreground/80">Kuhsteige 2, D-71154 Nufringen</p>
         </div>
       </header>
 
@@ -23,7 +23,7 @@ const Index = () => {
                 Insolvenzverfahren eröffnet
               </h1>
               <p className="text-lg text-foreground mb-4">
-                Das Insolvenzverfahren über das Vermögen der Eweret Automobile GmbH wurde eröffnet.
+                Das Insolvenzverfahren über das Vermögen der Automobile Wörfel GmbH wurde eröffnet.
               </p>
               <p className="text-base text-muted-foreground">
                 Es werden keine Geschäfte mehr durchgeführt. Alle geschäftlichen Anfragen sind an den Insolvenzverwalter zu richten.
@@ -41,7 +41,7 @@ const Index = () => {
             </CardHeader>
             <CardContent className="space-y-8">
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-foreground mb-2">Damaris Kosack</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Julian Maxeiner</h3>
                 <p className="gold-accent font-semibold text-lg">Rechtsanwalt</p>
               </div>
               
@@ -51,8 +51,8 @@ const Index = () => {
                     <MapPin className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground text-lg">Adresse</p>
-              <p className="text-muted-foreground">Wolfsgangstr. 35</p>
-              <p className="text-muted-foreground">60322 Frankfurt a. Main</p>
+              <p className="text-muted-foreground">Löffelstr. 22-24</p>
+              <p className="text-muted-foreground">70597 Stuttgart</p>
                     </div>
                   </div>
                   
@@ -60,9 +60,9 @@ const Index = () => {
                     <Phone className="h-6 w-6 text-accent flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground text-lg">Telefon</p>
-                <a href="tel:+496987003847" className="gold-accent hover:underline text-lg">
-                  (069) 870038470
-                </a>
+                      <a href="tel:+4971192536420" className="gold-accent hover:underline text-lg">
+                        (0711) 92536420
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -72,9 +72,9 @@ const Index = () => {
                     <Mail className="h-6 w-6 text-accent flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground text-lg">E-Mail</p>
-              <a href="mailto:d.kosack@merits-partner.de" className="gold-accent hover:underline">
-                d.kosack@merits-partner.de
-              </a>
+                      <a href="mailto:j.maxeiner@frik-maxeiner.de" className="gold-accent hover:underline">
+                        j.maxeiner@frik-maxeiner.de
+                      </a>
                     </div>
                   </div>
                   
@@ -82,9 +82,9 @@ const Index = () => {
                     <Globe className="h-6 w-6 text-accent flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground text-lg">Website</p>
-              <a href="https://merits-partner.de" target="_blank" rel="noopener noreferrer" className="gold-accent hover:underline">
-                merits-partner.de
-              </a>
+                      <a href="https://frik-maxeiner.de" target="_blank" rel="noopener noreferrer" className="gold-accent hover:underline">
+                        frik-maxeiner.de
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -93,19 +93,19 @@ const Index = () => {
               <div className="text-center pt-6">
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button asChild className="professional-button text-lg px-8 py-3">
-                    <a href="tel:+496987003847">
+                    <a href="tel:+4971192536420">
                       <Phone className="h-5 w-5 mr-2" />
                       Anrufen
                     </a>
                   </Button>
                   <Button variant="outline" asChild className="border-accent text-accent hover:bg-accent hover:text-accent-foreground text-lg px-8 py-3">
-                    <a href="mailto:d.kosack@merits-partner.de">
+                    <a href="mailto:j.maxeiner@frik-maxeiner.de">
                       <Mail className="h-5 w-5 mr-2" />
                       E-Mail senden
                     </a>
                   </Button>
                   <Button variant="outline" asChild className="border-accent text-accent hover:bg-accent hover:text-accent-foreground text-lg px-8 py-3">
-                    <a href="https://merits-partner.de" target="_blank" rel="noopener noreferrer">
+                    <a href="https://frik-maxeiner.de" target="_blank" rel="noopener noreferrer">
                       <Globe className="h-5 w-5 mr-2" />
                       Zur Kanzlei Website
                     </a>
@@ -124,26 +124,26 @@ const Index = () => {
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="border-l-4 border-accent pl-6">
-            <h4 className="text-xl font-semibold text-foreground mb-3">Automobilhandel in Bad Homburg</h4>
+            <h4 className="text-xl font-semibold text-foreground mb-3">Automobilhandel in Nufringen</h4>
             <p className="text-muted-foreground mb-4">
-              Die Eweret Automobile GmbH ist ein Automobilunternehmen in Bad Homburg v. d. Höhe, das sich auf den An- und Verkauf sowie den Export und die Vermittlung von neuen und gebrauchten Pkws und Lkws spezialisiert hat.
+              Gegenstand des Unternehmens ist der An- und Verkauf sowie Vermittlung von Kraftfahrzeugen aller Art.
             </p>
                 <div className="space-y-3">
                   <div>
                     <span className="font-semibold text-foreground">Geschäftsführer:</span>
-                    <span className="ml-2 text-muted-foreground">Miroslav Kolla</span>
+                    <span className="ml-2 text-muted-foreground">Günter Wörfel</span>
                   </div>
                   <div>
-                    <span className="font-semibold text-foreground">Spezialisierung:</span>
-                    <span className="ml-2 text-muted-foreground">An- und Verkauf sowie Export und Vermittlung von Pkws und Lkws</span>
+                    <span className="font-semibold text-foreground">Geschäftstätigkeit:</span>
+                    <span className="ml-2 text-muted-foreground">An- und Verkauf sowie Vermittlung von Kraftfahrzeugen aller Art</span>
                   </div>
                   <div>
                     <span className="font-semibold text-foreground">Amtsgericht:</span>
-                    <span className="ml-2 text-muted-foreground">Frankfurt am Main</span>
+                    <span className="ml-2 text-muted-foreground">Stuttgart</span>
                   </div>
                   <div>
                     <span className="font-semibold text-foreground">HRB:</span>
-                    <span className="ml-2 text-muted-foreground">121612</span>
+                    <span className="ml-2 text-muted-foreground">244169</span>
                   </div>
                 </div>
               </div>
@@ -160,20 +160,20 @@ const Index = () => {
             <CardContent className="space-y-4">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-3 text-lg">Eweret Automobile GmbH</h4>
+                  <h4 className="font-semibold text-foreground mb-3 text-lg">Automobile Wörfel GmbH</h4>
                   <div className="space-y-1 text-muted-foreground">
-              <p>Basler Str. 3</p>
-              <p>61352 Bad Homburg v. d. Höhe</p>
+              <p>Kuhsteige 2</p>
+              <p>D-71154 Nufringen</p>
                   </div>
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-muted-foreground" />
-                    <span className="text-muted-foreground">info@eweret-automobile.de</span>
+                    <span className="text-muted-foreground">info@automobile-woerfel.de</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Globe className="h-5 w-5 text-muted-foreground" />
-                    <span className="text-muted-foreground">eweret-automobile.de</span>
+                    <span className="text-muted-foreground">automobile-woerfel.de</span>
                   </div>
                 </div>
               </div>
@@ -187,7 +187,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 md:py-8">
           <div className="text-center">
             <p className="mb-3 text-lg">
-              <strong>Wichtiger Hinweis:</strong> Die Eweret Automobile GmbH befindet sich im Insolvenzverfahren.
+              <strong>Wichtiger Hinweis:</strong> Die Automobile Wörfel GmbH befindet sich im Insolvenzverfahren.
             </p>
             <p className="text-primary-foreground/80">
               Alle geschäftlichen Anfragen sind ausschließlich an den Insolvenzverwalter zu richten.
